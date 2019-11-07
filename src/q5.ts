@@ -5,7 +5,7 @@
 // 輸出說明: 請直接console.log出是否合法
 
 let checkId = function (id: string) {
-
+    console.log('--');
 }
 
 checkId('425') // 不合法

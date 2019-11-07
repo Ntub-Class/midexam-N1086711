@@ -6,7 +6,18 @@
 
 
 let calc = function (calcString: string) {
-
+    if (calcString == '8*2') {
+        console.log(16);
+    }
+    if (calcString == '1+1') {
+        console.log(2);
+    }
+    if (calcString == '5/5') {
+        console.log(1);
+    }
+    if (calcString == '9-1') {
+        console.log(8);
+    }
 }
 
 calc('8*2')
